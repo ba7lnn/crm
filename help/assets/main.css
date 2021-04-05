@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.main {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Courier New", Courier, monospace;
+	line-height: 1.5em;
+}
+.Rd {
+	color: #F00;
+}
+
+@media screen and (max-width: 300px) {
+    .main {
+		width: 98%;
+		margin-left: auto;
+		font-family: "Courier New", Courier, monospace;
+		line-height: 1.5em;
+	}
+}
